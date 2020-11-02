@@ -6,6 +6,7 @@
 ###Day002：機器學習概論
 ###Day003：機器學習-流程與步驟
 ###Day004: EDA/讀取資料與分析流程
+
 二、資料清理數據前處理
 
 ###Day005: 如何新建一個 dataframe? 如何讀取其他資料? (非 csv 的資料)
@@ -25,6 +26,7 @@
 ###Day019: Subplots
 ###Day020: Heatmap & Grid-plot
 ###Day021: 模型初體驗 Logistic Regression
+
 三、資料科學特徵工程技術
 
 ###Day022: 特徵工程簡介
@@ -38,6 +40,7 @@
 ###Day030: 特徵選擇
 ###Day031: 特徵評估
 ###Day032: 分類型特徵優化 - 葉編碼
+
 四、機器學習基礎模型建立
 
 ###Day033: 機器如何學習?
@@ -54,6 +57,7 @@ Day043: tree based model - 隨機森林 (Random Forest) 介紹
 Day044: tree based model - 隨機森林程式碼撰寫
 Day045: tree based model - 梯度提升機 (Gradient Boosting Machine) 介紹
 Day046: tree based model - 梯度提升機程式碼撰寫
+
 五、機器學習調整參數
 
 Day047: 超參數調整與優化
@@ -62,6 +66,7 @@ Day049: 集成方法:混合泛化(Blending)
 Day050: 集成方法:堆疊泛化(Stacking)
 期中考
 Day051-053:期中考
+
 六、非監督式機器學習
 
 Day054: clustering 1 非監督式機器學習簡介
@@ -73,11 +78,13 @@ Day059: dimension reduction 1 降維方法-主成份分析
 Day060: PCA 觀察 : 使用手寫辨識資料集
 Day061: dimension reduction 2 降維方法-T-SNE
 Day062: t-sne 觀察 分群與流形還原
+
 七、深度學習理論與實作
 
 Day063: 神經網路介紹
 Day064: 深度學習體驗 模型調整與學習曲線
 Day065: 深度學習體驗 啟動函數與正規化
+
 八、初探深度學習使用Keras
 
 Day066: Keras 安裝與介紹
@@ -91,6 +98,7 @@ Day073: 梯度下降Gradient Descent
 Day074: Gradient Descent 數學原理
 Day075: BackPropagation
 Day076: 優化器optimizers
+
 九、深度學習應用卷積神經網路
 
 參考
