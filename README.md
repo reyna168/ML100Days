@@ -12,43 +12,43 @@ Day004: EDA/讀取資料與分析流程
 
 二、資料清理數據前處理
 
-###Day005: 如何新建一個 dataframe? 如何讀取其他資料? (非 csv 的資料)
+Day005: 如何新建一個 dataframe? 如何讀取其他資料? (非 csv 的資料)
 
-###Day006: EDA: 欄位的資料類型介紹及處理
+Day006: EDA: 欄位的資料類型介紹及處理
 
-###Day007: 特徵類型
+Day007: 特徵類型
 
-###Day008: EDA資料分佈
+Day008: EDA資料分佈
 
-###Day009: EDA: Outlier 及處理
+Day009: EDA: Outlier 及處理
 
-###Day010: 數值型特徵 - 去除離群值
+Day010: 數值型特徵 - 去除離群值
 
-###Day011: 常用的數值取代：中位數與分位數連續數值標準化
+Day011: 常用的數值取代：中位數與分位數連續數值標準化
 
-###Day012: 數值型特徵-補缺失值與標準化
+Day012: 數值型特徵-補缺失值與標準化
 
-###Day013: DataFrame operationData frame merge/常用的 DataFrame 操作
+Day013: DataFrame operationData frame merge/常用的 DataFrame 操作
 
-###Day014: 程式實作 EDA: correlation/相關係數簡介
+Day014: 程式實作 EDA: correlation/相關係數簡介
 
-###Day015: EDA from Correlation
+Day015: EDA from Correlation
 
-###Day016: EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)
+Day016: EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)
 
-###Day017: EDA: 把連續型變數離散化
+Day017: EDA: 把連續型變數離散化
 
-###Day018: 程式實作 把連續型變數離散化
+Day018: 程式實作 把連續型變數離散化
 
-###Day019: Subplots
+Day019: Subplots
 
-###Day020: Heatmap & Grid-plot
+Day020: Heatmap & Grid-plot
 
-###Day021: 模型初體驗 Logistic Regression
+Day021: 模型初體驗 Logistic Regression
 
 三、資料科學特徵工程技術
 
-###Day022: 特徵工程簡介
+Day022: 特徵工程簡介
 
 ###Day023: 數值型特徵 - 去除偏態
 
@@ -142,15 +142,25 @@ Day065: 深度學習體驗 啟動函數與正規化
 八、初探深度學習使用Keras
 
 Day066: Keras 安裝與介紹
+
 Day067: Keras Dataset
+
 Day068: Keras Sequential API
+
 Day069: Keras Module API
+
 Day070: Multi-layer Perception多層感知
+
 Day071: 損失函數
+
 Day072: 啟動函數
+
 Day073: 梯度下降Gradient Descent
+
 Day074: Gradient Descent 數學原理
+
 Day075: BackPropagation
+
 Day076: 優化器optimizers
 
 九、深度學習應用卷積神經網路
