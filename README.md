@@ -50,38 +50,39 @@ Day021: 模型初體驗 Logistic Regression
 
 Day022: 特徵工程簡介
 
-###Day023: 數值型特徵 - 去除偏態
+Day023: 數值型特徵 - 去除偏態
 
-###Day024: 類別型特徵 - 基礎處理
+Day024: 類別型特徵 - 基礎處理
 
-###Day025: 類別型特徵 - 均值編碼
+Day025: 類別型特徵 - 均值編碼
 
-###Day026: 類別型特徵 - 其他進階處理
+Day026: 類別型特徵 - 其他進階處理
 
-###Day027: 時間型特徵
+Day027: 時間型特徵
 
-###Day028: 特徵組合 - 數值與數值組合
+Day028: 特徵組合 - 數值與數值組合
 
-###Day029: 特徵組合 - 類別與數值組合
-###Day030: 特徵選擇
+Day029: 特徵組合 - 類別與數值組合
 
-###Day031: 特徵評估
+Day030: 特徵選擇
 
-###Day032: 分類型特徵優化 - 葉編碼
+Day031: 特徵評估
+
+Day032: 分類型特徵優化 - 葉編碼
 
 四、機器學習基礎模型建立
 
-###Day033: 機器如何學習?
+Day033: 機器如何學習?
 
-###Day034: 訓練/測試集切分
+Day034: 訓練/測試集切分
 
-###Day035: regression vs. classification
+Day035: regression vs. classification
 
-###Day036: 評估指標選定/evaluation metrics
+Day036: 評估指標選定/evaluation metrics
 
-###Day037: regression model 介紹 - 線性迴歸/羅吉斯回歸
+Day037: regression model 介紹 - 線性迴歸/羅吉斯回歸
 
-###Day038: regression model 程式碼撰寫
+Day038: regression model 程式碼撰寫
 
 Day039: regression model 介紹 - LASSO 回歸/ Ridge 回歸
 
@@ -164,6 +165,72 @@ Day075: BackPropagation
 Day076: 優化器optimizers
 
 九、深度學習應用卷積神經網路
+
+深度學習理論與實作
+
+神經網路介紹
+
+深度學習體驗 : 模型調整與學習曲線 介紹體驗平台 TensorFlow PlayGround，並初步了解模型的調整
+
+深度學習體驗 : 啟動函數與正規化 在 TF PlayGround 上，體驗進階版的深度學習參數調整
+
+訓練神經網路的細節與技巧 - Validation and overfit 檢視並了解 overfit 現象
+
+訓練神經網路前的注意事項 資料是否經過妥善的處理？運算資源為何？超參數的設置是否正確？
+
+訓練神經網路的細節與技巧 - Learning rate effect 比較不同 Learning rate 對訓練過程及結果的差異
+
+[練習 Day] 優化器與學習率的組合與比較
+
+訓練神經網路的細節與技巧 - Regularization
+
+訓練神經網路的細節與技巧 - Dropout
+
+訓練神經網路的細節與技巧 - Batch normalization 因應 overfit 的方法概述 - 批次正規化 (Batch Normalization)
+
+[練習 Day] 正規化/機移除/批次標準化的 組合與比較 練習時間：Hyper-parameters 大雜燴
+
+訓練神經網路的細節與技巧 - 使用 callbacks 函數做 earlystop 因應 overfit 的方法概述 - 悔不當初的煞車機制 (EarlyStopping)
+
+訓練神經網路的細節與技巧 - 使用 callbacks 函數儲存 model 使用 Keras 內建的 callback 函數儲存訓練完的模型
+
+訓練神經網路的細節與技巧 - 使用 callbacks 函數做 reduce learning rate 使用 Keras 內建的 callback 函數做學習率遞減
+
+訓練神經網路的細節與技巧 - 撰寫自己的 callbacks 函數
+
+訓練神經網路的細節與技巧 - 撰寫自己的 Loss function
+
+使用傳統電腦視覺與機器學習進行影像辨識 了解在神經網路發展前，如何使用傳統機器學習演算法處理影像辨識
+
+[練習 Day] 使用傳統電腦視覺與機器學習進行影像辨識 應用傳統電腦視覺方法＋機器學習進行 CIFAR-10 分類
+
+深度學習應用卷積神經網路
+
+卷積神經網路 (Convolution Neural Network, CNN) 簡介 了解CNN的重要性, 以及CNN的組成結構
+
+卷積神經網路架構細節 為什麼比DNN更適合處理影像問題, 以及Keras上如何實作CNN
+
+卷積神經網路 - 卷積(Convolution)層與參數調整 卷積層原理與參數說明
+
+卷積神經網路 - 池化(Pooling)層與參數調整 介紹 Keras 中常用的 CNN layers
+
+Keras 中的 CNN layers
+
+使用 CNN 完成 CIFAR-10 資料集 透過 CNN 訓練 CIFAR-10 並比較其與 DNN 的差異
+
+訓練卷積神經網路的細節與技巧 - 處理大量數據 資料無法放進記憶體該如何解決？如何使用 Python 的生成器 generator?
+
+訓練卷積神經網路的細節與技巧 - 處理小量數據 資料太少準確率不高怎麼辦？如何使用資料增強提升準確率？
+
+訓練卷積神經網路的細節與技巧 - 轉移學習 (Transfer learning) 何謂轉移學習 Transfer learning？該如何使用？
+
+Kaggle 期末考
+
+透過 Kaggle 影像辨識測驗, 綜合應用深度學習的課程內容, 並體驗遷移學習的威力
+
+優化器(Optimizer)
+
+Optimizer
 
 參考
 李宏毅 老師 ML lecture: https://www.youtube.com/watch?v=CXgbekl66jc&feature=youtu.be
